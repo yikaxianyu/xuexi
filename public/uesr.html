@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/pre.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+    <style>
+        .container {
+            margin-top: 0;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar navbar-default top">
+        <div class="logo"><a href="http://localhost:3000/azz.html">
+                <img src="./img/azz-logo.png" alt="爱赞助" width="40px" height="40px" class="logo-img">
+                <span class="logo-span">爱赞助</span></a>
+        </div>
+        <div class="navbar-header">
+            <a href="#my-menu" class="navbar-toggle" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+        </div>
+        <div class=" collapse navbar-collapse Sign " id="my-menu">
+            <ul class="nav navbar-nav">
+                <li class="user_menu"  ><img src="./img/moren.png" class="user_img"><a href="/uesr.html" id="u_name" style="display: inline-block"></a></li>
+                <li><a href="javascript:void(0);" id="exit_login" class="user_menu">退出登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <div style="padding: 70px 0 0 0"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="active" data-set="1"><a href="#">我的奖励</a></li>
+                    <li role="presentation" data-set="2"><a>我的赞助</a></li>
+                    <li role="presentation" data-set="3"><a>设置</a></li>
+                </ul>
+                <div>
+                    <div class="reword">
+                        <div class="award-item-hd">
+                            <div class="hdline">
+                                Knight(骑士) 2019年7月奖励
+                            </div>
+                        </div>
+                        <div class="award-item-bd">
+                            <p>关于如何使用动态壁纸的说明：</p>
+                            <ol>
+                                <li dir="ltr">如果你的设备不是以上分辨率也可以使用，选择长宽比最接近的即可。3840x1080的版本适用于21:9, 26:9, 32:9 的显示器。</li>
+                                <li dir="ltr">PC版的壁纸已做了首尾衔接处理，可以循环播放。</li>
+                                <li dir="ltr">你收到的动态壁纸奖励是MP4格式的视频，如何设置为动态壁纸视设备的系统而定:</li>
+                            </ol>
+                            <p>a). Windows系统：最常用的动态壁纸软件为steam商店里的wallpaper
+                                engine（付费软件），打开后选择创建壁纸，选择视频文件，应用壁纸即可，无需做其它设置。但请勿将壁纸发布于创意工坊，因为这是赞助者才可以获得奖励。</p>
+                            <p>b). Mac OS：mac下没有比较好用的动态壁纸软件，不推荐使用。</p>
+                            <p>c). iPhone: iPhone可以将live photo设置为锁屏壁纸，如我视频中所展示的。所以你需要一款可以将mp4转化为live
+                                photo的的app。推荐使用的是intolive。</p>
+                            <p>d). iPad: iPad的官方系统不支持live photo设置为锁屏，必须越狱后安装相应的插件的才可以。</p>
+                            <p>e). Android系统。由于不同厂家的手机有自己的UI系统，所需的app也不一样，你需要去查找一下自己手机适用的app。常见的动态锁屏app有：微锁屏，Video Live
+                                Wallpaper等。</p>
+                            <p data-empty="true"><br></p>
+                            <p>2019年7月奖励包</p>
+                            <p data-empty="true"><br></p>
+                            <p>=========================骑士=========================================</p>
+                            <p>《鬼刀》《云虫》高清链接: https://pan.baidu.com/s/1bHOMEq 密码: n8ng</p>
+                            <p>本月壁纸及动态壁纸奖励补链接: 链接: https://pan.baidu.com/s/15iLngBMtSBmE7frNIonODQ 提取码: zmq5</p>
+                            <p>======================================================================</p>
+                        </div>
+                    </div>
+                    <div class="zz" style="display: none">
+                        <p class="empty-tips">您尚未赞助或赞助已过期</p>
+                    </div>
+                    <div class="set" style="display: none ; height:280px">
+                        <div class="set_left col-xs-4">
+                            <ul class="list-group">
+                                <li class="list-group-item  active" data-set="1">修改密码</li>
+                                <li class="list-group-item" data-set="2">绑定微信</li>
+                            </ul>
+                        </div>
+                        <div class="set_right col-xs-8">
+                            <div class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="pwd2" class="col-sm-2 control-label">确认旧密码</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="pwd1" placeholder="旧密码">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd2" class="col-sm-2 control-label">新密码</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="pwd2" placeholder="新密码">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd3" class="col-sm-2 control-label">确认密码</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="pwd3" placeholder="新密码">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-lg btn-info"
+                                            id="js_password_save">提交保存</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-form" style="display: none">
+                            <div class="content-form-body">
+                                <div class="form-horizontal">
+                                    <p>请用微信扫描绑定登陆微信号，手机用户请长按识别二维码</p>
+                                    <img id="bind-weixin-qrcode" width="150"
+                                        src="./img/qrcode.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-sm-2 col-md-1 fg jg">
+            </div>
+            <div class="col-xs-3 col-sm-2 col-md-1 fg jg">
+            </div>
+            <div class="col-xs-3 col-sm-2 col-md-1 fg jg">
+            </div>
+            <div class="col-xs-3 col-sm-2 col-md-1 fg jg">
+            </div>
+            <div class="hidden-xs col-sm-2 col-md-1 fg jg">
+            </div>
+            <div class="hidden-xs col-sm-2 col-md-1 fg jg">
+            </div>
+            <div class="hidden-xs hidden-sm col-md-1 fg jg">
+            </div>
+            <div class="hidden-xs hidden-sm col-md-1 fg jg">
+            </div>
+            <div class="hidden-xs hidden-sm col-md-1 fg jg">
+            </div>
+            <div class="hidden-xs hidden-sm col-md-1 fg jg">
+            </div>
+            <div class="hidden-xs hidden-sm col-md-1 fg jg">
+            </div>
+            <div class="hidden-xs hidden-sm col-md-1 fg jg">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-4 foot"><span class="bt">爱赞助</span>
+                <ul><a class="foot_a" href="">关于我们</a><a class="foot_a" href="">联系我们</a><a class="foot_a"
+                        href="">加入我们</a><a class="foot_a" href="">友情链接</a><a class="foot_a" href="">个人/企业认证</a><a
+                        class="foot_a" href="">Investor Relations</a></ul>
+            </div>
+            <div class="col-xs-12 col-sm-5  col-md-4 foot"><span class="bt">传送门</span>
+                <ul><a class="foot_a" href="">帮助中心</a><a class="foot_a" href="">创作中心</a><a class="foot_a"
+                        href="">活动专题页</a><a class="foot_a" href="">侵权申诉</a><a class="foot_a" target="_blank"
+                        href="">活动中心</a><a class="foot_a" href="">用户回馈论坛</a><a class="foot_a" href="">壁纸站</a><a
+                        class="foot_a" href="">名人堂</a></ul>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-4 foot">
+                <a href="">
+                    <p class="bt">客户端下载</p>
+                </a>
+                <div class="down">
+                    <div class="wb">
+                        <span class="foot_a">新浪微博&nbsp;&nbsp;&nbsp;</span>
+                    </div>
+                    <div class="wx">
+                        <span class="foot_a">官方微信&nbsp;&nbsp;&nbsp;</span>
+                    </div>
+                </div>
+                <div class="down_img">
+                    <span><img src="./img/wb.png" width="100px" id="wb"></span>
+                    <span><img src="./img/wx.png" width="100px" id="wx"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="width:60%;color: gray;margin: 0 auto;text-align: center; display: flex;">
+        <p>温馨提示：亲爱的市民朋友，上海警方反诈劝阻电话“962110”系专门针对避免您财产被骗受损而设，请您一旦收到来电，立即接听。</p>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

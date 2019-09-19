@@ -1,0 +1,105 @@
+.main-title {
+    color: #515151;
+    font-size: 26px;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+.login-form {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 0 0 rgba(5,45,73,0.07);
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding: 20px;
+    max-width: 512px;
+    width: 100%;
+    margin: 0 auto;
+}
+.login-form input {
+    border-radius: 0;
+    font-size: 15px;
+    width: 83%;
+    background: none;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 8px 0 8px 1px;
+    -webkit-transition: border 0.2s ease-in;
+    transition: border 0.2s ease-in;
+    border-bottom: 2px solid #E7ECF0;
+    margin-bottom: 8px;
+    outline: none;
+    font-weight: normal;
+    margin-left: 48px;
+}
+.login-row {
+    position: relative;
+    height: 45px;
+    margin: 10px 0;
+}
+.login-form .blur .placeholder {
+    bottom: 12px;
+    font-size: 13px;
+}
+.login-form .placeholder {
+    position: absolute;
+    cursor: text;
+    color: #A1ADB5;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    pointer-events: none;
+    left: 49px;
+}
+.text-right {
+    text-align: right;
+}
+.mgn20 {
+    margin: 20px;
+}
+.none {
+    display: none;
+}
+.bold {
+    font-weight: 700;
+}
+.text-danger {
+    color: #a94442;
+}
+.text-center {
+    text-align: center;
+}
+.login-form .login-btn {
+    margin: 15px 0;
+    backface-visibility: hidden;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: inherit;
+    cursor: default;
+}
+.btn-azz {
+    color: #fff;
+    background-color: #F4A95B;
+    border-color: #F4A95B;
+}
+.weixin-login {
+    color: #515151;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    line-height: 32px;
+    width: 200px;
+    height: 32px;
+}
+.login-form a.link {
+    color: #f28c26;
+    font-weight: 700;
+}
